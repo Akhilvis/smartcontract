@@ -19,6 +19,8 @@ contract TodoList {
 
     constructor() public{
      createTask("This is first task by Akhil Viswam");   
+     createTask("This is second task by Akhil Viswam");   
+
     }
 
     function createTask(string memory _content ) public{
